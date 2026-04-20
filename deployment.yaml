@@ -15,5 +15,6 @@ spec:
       containers:
         - name: my-app
           image: parthsaxena912/my-first-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
