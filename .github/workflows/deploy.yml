@@ -24,7 +24,7 @@ jobs:
 
       - name: Set Kubernetes Context
         run: |
-          aws eks update-kubeconfig --region YOUR_REGION --name my-cluster
+          aws eks update-kubeconfig --region us-west-1 --name my-cluster
 
       - name: Deploy to Kubernetes
         run: |
